@@ -1,0 +1,74 @@
+.team-container {
+  padding-bottom: 30px;
+  .team-list {
+    padding: 15px 0 20px;
+    .team-item {
+      @size: 90px;
+      width: @size;
+      margin: 0 10px;
+      .img {
+        width: @size;
+        height: @size;
+        margin: 0 auto 15px;
+      }
+      .title {
+        font-size: 12px;
+        margin-bottom: 8px;
+      }
+      .position {
+        font-size: 10px;
+      }
+    }
+  }
+  .team-view {
+    padding: 20px 0;
+    .left-layout {
+      width: 100%;
+      justify-content: center;
+      padding-right: 0;
+      margin-bottom: 30px;
+      .photo {
+        @size: 110px;
+        width: @size;
+        height: @size;
+      }
+    }
+    .right-layout {
+      width: 100%;
+      .top-text {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000;
+        text-align: center;
+        .title {
+          font-family: "poppins-b";
+          font-size: 18px;
+          margin-bottom: 0;
+        }
+      }
+      .bottom-content {
+        padding-top: 10px;
+        .desc {
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+        .content {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .toggle-btn-wrapper {
+    .toggle-btn {
+      .prev-btn,
+      .next-btn {
+        width: 36px;
+        height: 32px;
+      }
+    
+      svg {
+        width: 8px;
+        height: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.content {
+    min-height: 300pt;
+    .bg(@bgColor);
+    padding-top: 40pt;
+    box-sizing: border-box;
+    .center {
+      width: 75%;
+      margin: 0 auto;
+      .flex(space-between);
+      .left-layout {
+        width: 60%;
+        .title {
+          font-size: 18pt;
+          font-family: "poppins-b";
+          margin-bottom: 30pt;
+        }
+        .desc {
+          font-size: 20pt;
+          line-height: 1.3;
+        }
+      }
+      .right-layout {
+        width: 40%;
+        .flex(flex-end);
+      }
+    }
+  }

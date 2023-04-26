@@ -1,0 +1,67 @@
+.content {
+  .bg(@bgColor);
+  padding: 40px 0 45px;
+  .center {
+    .title {
+      font-size: 16px;
+      font-family: "poppins-b";
+      margin-bottom: 20px;
+    }
+    .left-layout {
+      .info-box {
+        max-width: 260px;
+        .address {
+          margin-bottom: 80px;
+        }
+
+        .info {
+          font-size: 19px;
+        }
+        .email {
+          margin-bottom: 80px;
+          .info {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .right-layout {
+      label {
+        display: block;
+        margin-bottom: 30px;
+        p {
+          font-size: 18px;
+        }
+        input,
+        textarea {
+          width: 100%;
+          border: 1px solid #ccc;
+          background-color: transparent;
+          font-size: 18px;
+          padding-left: 10px;
+          box-sizing: border-box;
+          &.error {
+            border: 1px solid red;
+          }
+        }
+        input {
+          height: 50px;
+        }
+        textarea {
+          height: 126px;
+          background-color: #f7f5f3;
+          padding-top: 10px;
+        }
+        .error-text {
+          margin-top: 5px;
+          font-size: 16px;
+        }
+      }
+      button {
+        width: 118px;
+        height: 60px;
+        font-size: 21px;
+      }
+    }
+  }
+}

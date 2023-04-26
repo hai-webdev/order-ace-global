@@ -1,0 +1,54 @@
+.strategy-container {
+  .main-content {
+    .center{
+      .acquisition-wrapper {
+        padding: 70px 0 45px;
+        .left-layout {
+          .flex();
+          img {
+            width: 80%;
+            max-width: 284px;
+          }
+        }
+        .right-layout {
+          .title {
+            font-size: 16px;
+            margin-bottom: 22px;
+          }
+          .desc {
+            font-size: 21px;
+            padding-bottom: 25px;
+            margin-bottom: 20px;
+          }
+          .content {
+            font-size: 15px;
+          }
+        }
+      }
+      .investment-wrapper {
+        padding: 50px 0 70px;
+        .title {
+          font-size: 16px;
+          margin-bottom: 25px;
+        }
+        .investment-content {
+          .left-layout {
+            padding-right: 25px;
+            font-size: 15px;
+          }
+          .right-layout {
+            ::v-deep li {
+              font-size: 16px;
+              padding-left: 16px;
+              &::before {
+                top: 14px;
+                width: 8px;
+                height: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

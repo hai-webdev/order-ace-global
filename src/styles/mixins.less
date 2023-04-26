@@ -1,0 +1,38 @@
+@import "./var.less";
+.flex(@justify-content: center,@align-items:center) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: @justify-content;
+  align-items: @align-items;
+}
+.bgImg(@position:center) {
+  background-position: @position;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg(@bgColor) {
+  background-color: @bgColor;
+  background-image: url("~@/assets/images/bg.jpg");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.more-btn{
+  display: flex;
+  width: 120pt;
+  height: 32pt;
+  box-sizing: border-box;
+  background-color: @mainColor;
+  border-radius: 50px;
+  color: #000;
+  font-size: 13pt;
+  font-family: "montserrat";
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  &:hover {
+    border: 2px solid @mainColor;
+    background-color: transparent;
+    color: @mainColor;
+  }
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'helveticaneue';
+    src: url('~@/assets/fonts/helveticaneue/helveticaneue.eot');
+    src: url('~@/assets/fonts/helveticaneue/helveticaneue.eot?#iefix') format('embedded-opentype'),
+         url('~@/assets/fonts/helveticaneue/helveticaneue.woff') format('woff'),
+         url('~@/assets/fonts/helveticaneue/helveticaneue.ttf') format('truetype'),
+         url('~@/assets/fonts/helveticaneue/helveticaneue.svg#webfont34M5alKg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('~@/assets/fonts/montserrat/montserrat-regular.eot');
+    src: url('~@/assets/fonts/montserrat/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+         url('~@/assets/fonts/montserrat/montserrat-regular.woff') format('woff'),
+         url('~@/assets/fonts/montserrat/montserrat-regular.ttf') format('truetype'),
+         url('~@/assets/fonts/montserrat/montserrat-regular.svg#webfont34M5alKg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins';
+    src: url('~@/assets/fonts/poppins/poppins-regular.eot');
+    src: url('~@/assets/fonts/poppins/poppins-regular.eot?#iefix') format('embedded-opentype'),
+         url('~@/assets/fonts/poppins/poppins-regular.woff') format('woff'),
+         url('~@/assets/fonts/poppins/poppins-regular.ttf') format('truetype'),
+         url('~@/assets/fonts/poppins/poppins-regular.svg#webfont34M5alKg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-b';
+    src: url('~@/assets/fonts/poppins/poppins-bold.eot');
+    src: url('~@/assets/fonts/poppins/poppins-bold.eot?#iefix') format('embedded-opentype'),
+         url('~@/assets/fonts/poppins/poppins-bold.woff') format('woff'),
+         url('~@/assets/fonts/poppins/poppins-bold.ttf') format('truetype'),
+         url('~@/assets/fonts/poppins/poppins-bold.svg#webfont34M5alKg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-extra-light';
+    src: url('~@/assets/fonts/poppinsextralight/poppins-extralight.eot');
+    src: url('~@/assets/fonts/poppinsextralight/poppins-extralight.eot?#iefix') format('embedded-opentype'),
+         url('~@/assets/fonts/poppinsextralight/poppins-extralight.woff') format('woff'),
+         url('~@/assets/fonts/poppinsextralight/poppins-extralight.ttf') format('truetype'),
+         url('~@/assets/fonts/poppinsextralight/poppins-extralight.svg#webfont34M5alKg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-light';
+    src: url('~@/assets/fonts/poppinslight/poppins-light.eot');
+    src: url('~@/assets/fonts/poppinslight/poppins-light.eot?#iefix') format('embedded-opentype'),
+         url('~@/assets/fonts/poppinslight/poppins-light.woff') format('woff'),
+         url('~@/assets/fonts/poppinslight/poppins-light.ttf') format('truetype'),
+         url('~@/assets/fonts/poppinslight/poppins-light.svg#webfont34M5alKg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
